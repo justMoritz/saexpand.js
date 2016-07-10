@@ -36,7 +36,7 @@ $(function(){
                     // we are also adding this, to make sure the text now wrpas properly.
                     $(this).css("white-space", "normal");
                     // changes text add uparrow
-                    $(this).html("<span class='saexpand-arrow>▲</span> " + $answerObject['originalText' + i]);
+                    $(this).html("<span class='saexpand-arrow'>▲</span> " + $answerObject['originalText' + i]);
                     // marks he clicked element as expanded.
                     $answerObject['expanded' + i] = 1;  
                 }
@@ -47,7 +47,7 @@ $(function(){
                     // also makes the text not wrap again (for ellipsis)
                     $(this).css("white-space", "nowrap");
                     $answerObject['expanded' + i] = 0;
-                    $(this).html("<span class='saexpand-arrow>▼</span> " + $answerObject['originalText' + i]);
+                    $(this).html("<span class='saexpand-arrow'>▼</span> " + $answerObject['originalText' + i]);
                 }
             }
 
