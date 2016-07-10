@@ -50,7 +50,6 @@ $(function(){
                     $(this).html("<span class='saexpand-arrow'>▼</span> " + $answerObject['originalText' + i]);
                 }
             }
-
         }
     });
 });
