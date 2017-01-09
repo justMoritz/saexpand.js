@@ -1,4 +1,5 @@
 # SA(scollimate) Expand
+![SA EXPAND SAMPLE](http://files.moritzzimmer.com/saexpand.gif)
 
 ### ABOUT:
 
